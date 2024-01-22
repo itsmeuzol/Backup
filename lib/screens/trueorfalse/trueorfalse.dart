@@ -15,27 +15,24 @@ class _SectionsState extends State<Sections> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBarWithDrawer(),
-      body: Column(
-        children: [
-          SizedBox(height: 10.0),
-          CustomSection(
-            image: "assets/images/Rectangle.png",
-            text: "True or False",
-          ),
-          CustomSection(
-            image: 'assets/images/Rectangle.png',
-            text: 'True or False',
-          ),
-          CustomSection(
-            image: 'assets/images/Rectangle.png',
-            text: 'True or False',
-          )
-        ],
-      ),
-    );
+    return const AppBarWithDrawer(title: "Courses",
+        body: Column(
+          children: [
+            SizedBox(height: 10.0),
+            CustomSection(
+              image: "assets/images/Rectangle.png",
+              text: "True or False",
+            ),
+            CustomSection(
+              image: 'assets/images/Rectangle.png',
+              text: 'True or False',
+            ),
+            CustomSection(
+              image: 'assets/images/Rectangle.png',
+              text: 'True or False',
+            )
+          ],
+        ),);
   }
 }
 
@@ -71,17 +68,7 @@ class CustomSection extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             const SizedBox(height: 8),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Text(
-                text,
-                style: const TextStyle(
-                  fontSize: 20.0,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
+
           ],
         ),
       ),

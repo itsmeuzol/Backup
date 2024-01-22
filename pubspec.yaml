@@ -68,6 +68,8 @@ flutter:
     - assets/images/Linkedin.png
     - assets/images/Abhay.png
     - assets/images/Rectangle.png
+    - assets/images/discord.png
+    - assets/images/codynlogo.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
