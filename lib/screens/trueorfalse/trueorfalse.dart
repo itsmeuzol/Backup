@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:second_app/widgets/appbar.dart';
 import 'package:second_app/widgets/bottom_nav.dart';
-import 'package:second_app/widgets/topappbar.dart';
 
 class Sections extends StatefulWidget {
   const Sections({Key? key}) : super(key: key);
@@ -17,7 +17,7 @@ class _SectionsState extends State<Sections> {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.white,
-      appBar: TopAppBar(),
+      appBar: AppBarWithDrawer(),
       body: Column(
         children: [
           SizedBox(height: 10.0),
