@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import '../widgets/bottom_nav.dart';
+import 'package:second_app/widgets/bottom_nav.dart';
 import 'content_model.dart';
-import 'package:second_app/screens/login_page.dart';
 
 
 class Onbording extends StatefulWidget {

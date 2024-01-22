@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:second_app/profile_page.dart';
-import 'package:second_app/savedcourse.dart';
+import 'package:second_app/screens/profile_page.dart';
+import 'package:second_app/screens/savedcourse.dart';
 import 'package:second_app/widgets/SplashScreen.dart';
 import 'package:second_app/widgets/appbar.dart';
 

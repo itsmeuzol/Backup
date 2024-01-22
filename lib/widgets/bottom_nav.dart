@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../screens/aboutus_page/aboutus.dart';
 import '../screens/courses_pages/courses.dart';
 import '../screens/home.dart';
-import '/intro_pages/onbording.dart';
 import '../screens/login_page.dart';
 
 class BottomNav extends StatefulWidget {
