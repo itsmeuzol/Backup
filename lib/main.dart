@@ -10,18 +10,16 @@ import 'screens/trueorfalse/fillintheblanks.dart';
 void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
-      title: 'JS',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(scaffoldBackgroundColor: Colors.black),
-       home: SavedCourse()
-    );
+    return MaterialApp(
+        title: 'JS',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(scaffoldBackgroundColor: Colors.black),
+        home: const Splash());
   }
 }
-
-
